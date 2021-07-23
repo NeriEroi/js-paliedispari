@@ -39,7 +39,7 @@ if (somma %2 == 0) {
 
 // Dichiariamo chi ha vinto.
 
-if (pariDispari == (somma %2 == 0)) {
+if ((pariDispari == "pari") && (somma %2 == 0)) {
     console.log("Hai vinto!");
 } else {
     console.log("Hai perso!");
