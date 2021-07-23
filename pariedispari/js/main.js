@@ -14,15 +14,17 @@ console.log(inserisciNumero);
 
 // Generiamo un numero random (sempre da 1 a 5) per il computer (usando una funzione)
 
+function numeroCpu(min, max) {
+    return Math.floor(Math.random() * max) + min;
+}
 
-var numeroCpu = Math.floor(Math.random() * 5) + 1;
 
-console.log(numeroCpu);
+console.log(numeroCpu(1, 5));
 
 
 // Sommiamo i due numeri
 
-var somma = inserisciNumero + numeroCpu;
+var somma = inserisciNumero + numeroCpu(1, 5);
 
 console.log(somma);
 
