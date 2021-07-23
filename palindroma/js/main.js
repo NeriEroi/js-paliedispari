@@ -28,7 +28,7 @@ var parolaDivisaInLettere = parolaDivisaInLettere.join('');
 console.log(parolaDivisaInLettere);
 
 
-// funzione
+// condizione
 
 
 if(parola == parolaDivisaInLettere){
